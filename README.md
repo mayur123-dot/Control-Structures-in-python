@@ -26,11 +26,18 @@ Checking if number is Even or Odd
 
 # Task 2
 Sum of integer from 1 to 50 using loop
-1) Initialize a variable to store the sum
+1) Initialize a variable to store the sum :
    Before starting the loop the program creates a variable and set it to 0
    total = 0
-
-2) Use a Loop to add number   
+2) Use a Loop to add number
+    for x in range(1,51):
+    total += x  
+    A for loop is typically used to iterate through the number 1 to 50
+3) Loop Execution
+    The loop starts with the value 1
+    The loop continues until it reaches 50
+4) Output the result
+    after the loop finishes the total sum is printed   
 
    
 
